@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MouneShop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="logo">
+          <i class="fa-solid fa-truck-fast"></i>
+          <h1>MouneShop</h1>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Accueil</a>
+            </li>
+            <li>
+              <a href="/ventechapeau/ventes.html">Ventes</a>
+            </li>
+            <li>
+              <a href="/ventechapeau/apropos.html">A propos</a>
+            </li>
+          </ul>
+        </nav>
+        <form>
+          <input
+            type="text"
+            name="nom"
+            id=""
+            class="recherche"
+            placeholder="Chercher produit ..."
+          />
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+
+        <div class="actions">
+          <div class="carte">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <div class="nombre">4</div>
+          </div>
+          <div class="love">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="user"><img src="./assets/profile/profile.png" /></div>
+        </div>
+      </header>
+      <div class="main-content">
+        <section class="filtre">
+          <div class="breadcumb">
+            <i class="fa-solid fa-house"></i>
+            <p><i class="fa-solid fa-chevron-right"></i> Accueil</p>
+          </div>
+
+          <div class="filtre-vrai">
+            <button>
+              <i class="fa-solid fa-filter">
+                Filter
+              </i>
+            </button>
+
+            <div class="options">
+              <p class="item">Cowbow</p>
+              <p class="item">Swag</p>
+              <p class="item">General</p>
+            </div>
+          </div>
+        </section>
+        <section class="hero">
+          <div class="hero-content">
+            <h2>Collection Exlucive Été 2024 </h2>
+            <p>Découvrez nos chapeaux artisanaux</p>
+            <button >Voir la collection</button>
+          </div>
+        </section>
+
+        <section class="featured">
+          <h2>Nos Best-Sellers</h2>
+          <div class="products-grid">
+
+          </div>
+        </section>
+
+        <section class="produits"></section>
+
+        <dialog class="one-product">
+          <div class="close">
+            <i class="fa-solid fa-times"></i>
+            <p>Fermer</p>
+          </div>
+        </dialog>
+      </div>
+      <footer>
+        <div class="footer-logo">
+          <i class="fa-solid fa-truck-fast"></i>
+          <h1>MouneShop</h1>
+        </div>
+        <div class="footer-content">
+          <p class="copy">Copyright © 2024 - Tous droits réservés</p>
+        </div>
+      </footer>
+    </main>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
